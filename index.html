@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- elemento pai  -->
+<head> <!-- elemento pai e filho do html -->
+    <meta charset="UTF-8"> <!-- elemento filho do head -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    
+</head>
+<body> <!-- elemento pai e filho do html -->
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu_link" href="index.html">Home</a>
+            <a class="cabecalho__menu_link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu_link" href="skills.html">Skills</a>
+        </nav>
+    </header> 
+    <main class="apresentacao"> <!-- elemento filho do body -->
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Thaís Moura, desenvolvedora Front-end com especialidade em <strong class="apresentacao__conteudo__texto__strong">React, HTML e CSS</strong>. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+            <div class="apresentacao__links"> 
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2> <!-- elemento filho do div -->
+                <a class="apresentacao__links__navegacao" href="https://instagram.com/atelietm.ba">
+                    <img src="./assets/instagram.png">
+                    Instagram
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://github.com/thaistech">
+                    <img src="./assets/github.png">
+                    GitHub
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://br.linkedin.com/">
+                    <img src="./assets/linkedin.png">
+                    Linkedin
+                </a>
+            </div>
+        </section>
+        <img class="apresentacao__imagem" src="./assets/thaistech.png" onmouseover="this.src='./assets/thaistech2.png'" onmouseout="this.src='./assets/thaistech.png'" alt="foto da Thaís Moura">
+       
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Thaís Moura.</p>
+    </footer>
+   
+</body>
+</html>
