@@ -156,54 +156,6 @@ body {
 }
 
 
-
-@media (max-width: 1200px) { 
-    .cabecalho {
-        padding: 5%;
-    }   
-  
-    .cabecalho__menu {
-        justify-content: center;
-    }
-
-  
-    .apresentacao {  
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-
-    .apresentacao__conteudo {
-        width:auto;
-
-    }
-
-    .apresentacao__imagem {
-        width: 60%; 
-        padding: 5% 0% 0% 20%;
-        
-    }
-
-                        
-    .apresentacao__skill {
-        padding: 5px 10px 15px 30px;
-        flex-wrap:wrap-reverse;
-        
-                                     
-    }
-
-     
-    .apresentacao__skill {
-        padding: 5%;
-        margin: 5px 10px 15px 30px;
-    }
-
-
-    
-
-}
-
-
-
 p:hover {
     color: #eccdd260;
 }
@@ -261,6 +213,9 @@ section:hover {
     font-size: 0.95rem; 
     font-family: var(--fonte-primaria);
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -290,3 +245,59 @@ h2:hover + ul {
 }
 
 /* FINAL Pagina section Skill------------------------------------------------------------*/
+
+
+
+
+@media (max-width: 1200px) { 
+    .cabecalho {
+        padding: 5%;
+    }   
+  
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+  
+    .apresentacao {  
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width:auto;
+
+    }
+
+    .apresentacao__imagem {
+        width: 60%; 
+        padding: 5% 0% 0% 20%;
+        
+    }
+
+                        
+    .apresentacao__skill {
+        padding: 0em 2em;
+        flex-wrap:wrap-reverse;
+        margin: 5%;
+        grid-template-columns: none !important; 
+                                           
+    }
+
+  
+    .apresentacao__skill__titulo {
+        font-size: 2rem;
+        padding: 5%;
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+   .apresentacao__skill__lista{
+        font-size: 1rem;
+        padding: 2em 2em;
+        
+   }
+}
