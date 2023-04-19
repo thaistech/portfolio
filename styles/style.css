@@ -277,18 +277,13 @@ h2:hover + ul {
 
                         
     .apresentacao__skill {
-        padding: 0em 2em;
-        flex-wrap:wrap-reverse;
-        margin: 5%;
         grid-template-columns: none !important; 
                                            
     }
 
   
     .apresentacao__skill__titulo {
-        font-size: 2rem;
-        padding: 5%;
-        margin: 5%;
+        font-size: 2rem;            
         display: flex;
         justify-content: center;
         align-items: center;
@@ -300,4 +295,5 @@ h2:hover + ul {
         padding: 2em 2em;
         
    }
+
 }
