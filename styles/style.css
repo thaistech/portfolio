@@ -156,6 +156,7 @@ body {
 }
 
 
+
 @media (max-width: 1200px) { 
     .cabecalho {
         padding: 5%;
@@ -182,40 +183,24 @@ body {
         
     }
 
-
-
-
-    .apresentacao__conteudo__1skill {
-        
-        margin: 5px 10px 15px 30px;
-
-                                     
-    }
-
-    .apresentacao__1skill {
+                        
+    .apresentacao__skill {
         padding: 5px 10px 15px 30px;
         flex-wrap:wrap-reverse;
         
                                      
     }
 
-
      
-    .apresentacao__conteudo__skill {
+    .apresentacao__skill {
         padding: 5%;
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-        
-                
+        margin: 5px 10px 15px 30px;
     }
 
 
+    
 
 }
-
-
-
 
 
 
@@ -247,83 +232,44 @@ section:hover {
 
 
 
-/* INICIO Pagina MAIN 1 Skill------------------------------------------------------------*/
-
-
-.apresentacao__conteudo__1skill {
-    padding: 5% 12%; 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 30%;
-    gap: 3px;
-
-}
-
-
-
-
-
-.imagem__frontend {
-    width: 35%; 
-}
-
-.apresentacao__1skill__titulo {
-    font-size: 1.75rem; 
-    font-family: var(--fonte-primaria);
-
-}
-
-.apresentacao__1skill__titulo:hover {
-    color: var(--cor-quaternaria);
-}
-
-
-/* FINAL Pagina MAIN 1 Skill------------------------------------------------------------*/
-
-
-/* INICIO Pagina MAIN 2 Skill------------------------------------------------------------*/
-
-.apresentacao__conteudo__skill { 
-    padding: 1% 8% 5% 12%; 
-    display: flex;
-    justify-content: space-between; 
-    gap: 82px;
-}
+/* INICIO Pagina section Skill------------------------------------------------------------*/
 
 .apresentacao__skill {
-    width: 1,875rem; 
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    gap: 40px; 
+    padding: 5% 12% 5% 12%; 
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    gap: 82px;
+    margin: auto;
+           
 }
 
 
 .apresentacao__skill__titulo {
-    font-size: 0.95rem; 
+    font-size: 2.25rem; 
+    color:var(--cor-secudaria);
+    margin: 5rem 10rem -1rem 10rem;
     font-family: var(--fonte-primaria);
+    
+    
 }
 
 .apresentacao__skill__titulo:hover {
     color: var(--cor-quaternaria);
 }
 
-h1:hover + div {
-    background-color: var(--cor-quaternaria);
-    border: 3px mixed (--cor-terciaria); 
-        
+.apresentacao__skill__subtitulo {
+    font-size: 0.95rem; 
+    font-family: var(--fonte-primaria);
+    margin-bottom: 2rem;
 }
 
 
-.apresentacao__skill__subtitulo {
-    font-size: 1,25rem; 
+.apresentacao__skill__subtitulo:hover {
     color: var(--cor-quaternaria);
 }
 
-.apresentacao__skill__div{
-    padding: 5%;
+.apresentacao__skill__lista{
+    padding: 10% 10% 10% 15%;
     display: flex; 
     flex-direction: column; 
     justify-content: space-between;
@@ -331,8 +277,16 @@ h1:hover + div {
     gap: 20px;  
     color: var(--cor-secudaria);
     border: 3px dotted var(--cor-terciaria); 
+    font-family: var(--fonte-secundaria);
+    font-size: 0.8rem; 
 }
 
-/* FINAL Pagina MAIN 2 Skill------------------------------------------------------------*/
 
 
+h2:hover + ul {
+    background-color: var(--cor-quaternaria);
+    border: 3px mixed (--cor-terciaria); 
+    font-size: 0.9rem; 
+}
+
+/* FINAL Pagina section Skill------------------------------------------------------------*/
